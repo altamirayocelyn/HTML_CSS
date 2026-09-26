@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Know Yourself | Personal Self-Discovery Profile</title>
+  <!-- Google Fonts import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- HEADER SECTION -->
+    <header class="profile-header">
+      <div class="avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=300&auto=format&fit=crop" alt="User Profile" class="profile-avatar">
+      </div>
+      <h1 class="brand-title">Know Yourself</h1>
+      <p class="tagline">My Personal Self-Discovery & Growth Profile</p>
+      <div class="quote-box">
+        <p>“Investing in yourself is the quietest and most powerful revolution.”</p>
+      </div>
+    </header>
+
+    <!-- SECTION 1: GOALS & VISION -->
+    <section class="card-section">
+      <h2 class="section-title">My Vision & Goals</h2>
+      <div class="goals-grid">
+        <div class="goal-card short">
+          <span class="badge">Short Term</span>
+          <h3>1 - 3 Months</h3>
+          <ul>
+            <li>Read 2 self-development books</li>
+            <li>Establish a morning routine</li>
+            <li>Drink 2L of water daily</li>
+          </ul>
+        </div>
+
+        <div class="goal-card medium">
+          <span class="badge">Medium Term</span>
+          <h3>6 - 12 Months</h3>
+          <ul>
+            <li>Improve my English level</li>
+            <li>Learn advanced CSS & Web Design</li>
+            <li>Take a solo weekend trip</li>
+          </ul>
+        </div>
+
+        <div class="goal-card long">
+          <span class="badge">Long Term</span>
+          <h3>1 - 3 Years</h3>
+          <ul>
+            <li>Build my tech portfolio</li>
+            <li>Graduate with honors</li>
+            <li>Work on personal tech projects</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: PERSONALITY & GROWTH -->
+    <section class="card-section">
+      <h2 class="section-title">Personality & Self-Improvement</h2>
+      <p class="section-subtitle">Areas I want to nourish and cultivate every day</p>
+      
+      <div class="interactive-list">
+        <label class="custom-checkbox">
+          <input type="checkbox" checked>
+          <span class="checkmark"></span>
+          Practice patience & emotional intelligence
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox" checked>
+          <span class="checkmark"></span>
+          Set healthy boundaries in daily life
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox">
+          <span class="checkmark"></span>
+          Be more assertive when communicating
+        </label>
+        <label class="custom-checkbox">
+          <input type="checkbox" checked>
+          <span class="checkmark"></span>
+          Celebrate small wins every single day
+        </label>
+      </div>
+    </section>
+
+    <!-- SECTION 3: TRENDS & STYLE -->
+    <section class="card-section">
+      <h2 class="section-title">Style & Aesthetic Preferences</h2>
+      
+      <div class="aesthetic-container">
+        <div class="style-box">
+          <h3>Trending Color Palette</h3>
+          <div class="color-palette">
+            <div class="color-swatch" style="background-color: #ffd1dc;" data-name="Baby Pink"></div>
+            <div class="color-swatch" style="background-color: #e6e6fa;" data-name="Soft Lavender"></div>
+            <div class="color-swatch" style="background-color: #d4f0f0;" data-name="Pastel Mint"></div>
+            <div class="color-swatch" style="background-color: #fff0f5;" data-name="Warm Cream"></div>
+          </div>
+        </div>
+
+        <div class="style-box">
+          <h3>Favorite Fashion Aesthetic</h3>
+          <div class="style-tags">
+            <span class="tag active">Clean Girl Aesthetic</span>
+            <span class="tag">Soft Minimalist</span>
+            <span class="tag">Coquette Chic</span>
+            <span class="tag">Casual Oversized</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: FAVORITES & COMFORT -->
+    <section class="card-section">
+      <h2 class="section-title">Comfort & Favorite Foods</h2>
+      <div class="favorites-grid">
+        <div class="fav-item">
+          <span class="icon">☕</span>
+          <h4>Go-To Drink</h4>
+          <p>Iced Matcha Latte with Oat Milk</p>
+        </div>
+        <div class="fav-item">
+          <span class="icon">🍝</span>
+          <h4>Comfort Food</h4>
+          <p>Creamy Pasta & Fresh Salads</p>
+        </div>
+        <div class="fav-item">
+          <span class="icon">🍰</span>
+          <h4>Favorite Sweet</h4>
+          <p>Berry Cheesecake & Strawberry Tart</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: CREATE / EDIT YOUR PROFILE FORM -->
+    <section class="card-section form-section">
+      <h2 class="section-title">Update Your Self-Discovery Profile</h2>
+      <form class="profile-form" onsubmit="return false;">
+        <div class="form-group">
+          <label>Your Name / Alias</label>
+          <input type="text" placeholder="e.g. Yocelyn Altamira">
+        </div>
+
+        <div class="form-group">
+          <label>Main Focus Goal for This Month</label>
+          <input type="text" placeholder="What is your priority right now?">
+        </div>
+
+        <div class="form-group">
+          <label>Select Your Current Vibe Color</label>
+          <select>
+            <option>Baby Pink (#FFD1DC)</option>
+            <option>Soft Lavender (#E6E6FA)</option>
+            <option>Pastel Mint (#D4F0F0)</option>
+            <option>Cream Butter (#FFFDD0)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Notes to My Future Self</label>
+          <textarea rows="3" placeholder="Write something kind to yourself..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Save Profile Updates</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="app-footer">
+      <p>Created with 💕 for Personal Growth | <strong>Know Yourself Project</strong></p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
